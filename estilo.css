@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+h1.titulo{
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: orangered 6px 0px;
+}
+
+div.encabezado{
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a.titulo:link{
+    color: white;
+}
+
+a.titulo:visited{
+    color: white;
+}
+
+a.link{
+    
+}
+
+
+div.subencabezado{
+    background-color: rgb(252, 252, 104);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: orangered 2px solid;
+}
+
+
+
+div.principal{
+    background-image: url(recursos/naranja2.svg);
+    background-color: palegoldenrod;
+    background-repeat: repeat-x;
+    background-position-x: left;
+    background-position: bottom top;
+    background-size: 20px, 20px;
+    padding-bottom: -100px;
+}
+
+p.a{
+    background-color: rgb(238, 138, 45);
+    color: red;
+    position: relative;
+    width: 650px;
+    height: 350px;
+    left: 30%;
+    top: 50px;
+    text-align: center;
+    z-index: 1;
+    border: red 4px solid;
+    font-size: 22px;
+}
+
+p.b{
+    background-color: rgb(235, 235, 91);
+    color: rgb(199, 162, 0);
+    position: relative;
+    width: 650px;
+    height: 350px;
+    left: 80px;
+    position: relative;
+    top: -50px;
+    text-align: left;
+    z-index: 0;
+    border: rgb(179, 230, 41) 4px solid;
+    font-size: 22px;
+}
+
+p.c{
+    background-color: rgb(110, 255, 241);
+    color: rgb(0, 195, 255);
+    position: relative;
+    width: 650px;
+    height: 350px;
+    z-index: 0;
+    bottom: 400px;
+    left: 52%;
+    text-align: center;
+    border: rgb(0, 153, 158) 4px solid;
+    font-size: 22px;
+
+}
+
+p:hover{
+    z-index: 3;
+}
+
+footer{
+    background-color: rgb(252, 252, 104);
+    text-align: center;
+}
